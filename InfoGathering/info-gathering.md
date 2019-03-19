@@ -12,7 +12,7 @@ host www.domain.com #check ip of domain web server
 #reverse.sh reverse DNS lookup script
 
 zone transfer  
-host -t ns domain.com #show name servers
+host -t ns domain.com #show name servers  
 host -l domain.com ns1.domain.com. #try the different name servers for leakage
 
 #zone-transfer.sh, simple zone transfer script
