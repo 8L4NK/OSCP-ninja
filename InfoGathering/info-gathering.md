@@ -8,7 +8,7 @@ site:"domain.com" -site:"www.domain.com" #search for subdomains, exclude main
 DNS enumeration
 host www.domain.com #check ip of domain web server
 
-#foward.sh, forward DNS lookup script
+#foward.sh, forward DNS lookup script  
 #reverse.sh reverse DNS lookup script
 
 zone transfer
