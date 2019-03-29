@@ -18,7 +18,7 @@ _Zone Transfer_
 `host -l domain.com ns1.domain.com.` #try the different name servers for leakage
 #zone-transfer.sh, simple zone transfer script
 
-_Host Discovery / Port Scanning_
+_Host Discovery / Port Scanning_ .   
 `nmap -sn TargetIPRange -oG ping-sweep` #ICMP Sweep  
 	`$ grep Up ping-sweep |cut -d" " -f2` #Clean results with grep  
 `nmap -p139,445 TargetIPRange --open` #Quick check for open SMB servers on IP range  
